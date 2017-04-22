@@ -1,0 +1,30 @@
+{
+    "name": "aliyun/ots",
+    "type": "library",
+    "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
+    "keywords": ["qiniu", "storage", "sdk", "cloud"],
+    "homepage": "http://developer.qiniu.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Appssppa",
+            "email": "sdk@qiniu.com",
+            "homepage": "http://www.qiniu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev-bak": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\OTS\\Retry\\": "src\\OTS\\Retry",
+            "Aliyun\\OTS\\Handlers\\": "src\\OTS\\Handlers",
+            "Aliyun\\OTS\\": "src\\OTS\\OTS",
+        },
+        "files": ["src/Appssppa/functions.php"]
+    }
+}
