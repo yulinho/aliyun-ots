@@ -23,7 +23,7 @@
         "psr-4": {
             "Aliyun\\OTS\\Retry\\": "src\\OTS\\Retry",
             "Aliyun\\OTS\\Handlers\\": "src\\OTS\\Handlers",
-            "Aliyun\\OTS\\": "src\\OTS\\OTS",
+            "Aliyun\\OTS\\": "src\\OTS\\OTS"
         },
         "files": ["src/Appssppa/functions.php"]
     }
