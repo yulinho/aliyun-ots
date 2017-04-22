@@ -1,5 +1,5 @@
 {
-    "name": "aliyun/ots",
+    "name": "aliyun-ots",
     "type": "library",
     "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
     "keywords": ["qiniu", "storage", "sdk", "cloud"],
