@@ -1,5 +1,5 @@
 {
-    "name": "aliyun-ots",
+    "name": "yulinho/aliyunots",
     "type": "library",
     "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
     "keywords": ["qiniu", "storage", "sdk", "cloud"],
@@ -24,7 +24,6 @@
             "Aliyun\\OTS\\Retry\\": "src\\OTS\\Retry",
             "Aliyun\\OTS\\Handlers\\": "src\\OTS\\Handlers",
             "Aliyun\\OTS\\": "src\\OTS\\OTS"
-        },
-        "files": ["src/Appssppa/functions.php"]
+        }
     }
 }
